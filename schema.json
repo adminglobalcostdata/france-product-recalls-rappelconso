@@ -1,0 +1,189 @@
+{
+ "columns": [
+  {
+   "name": "recall_id",
+   "type": "string",
+   "description": "RappelConso recall id (stable)."
+  },
+  {
+   "name": "notice_number",
+   "type": "string",
+   "description": "Recall notice number, for example 2026-11-0060."
+  },
+  {
+   "name": "version",
+   "type": "number",
+   "description": "Notice version number."
+  },
+  {
+   "name": "published_at",
+   "type": "string",
+   "description": "Publication date-time (ISO 8601, UTC)."
+  },
+  {
+   "name": "published_date",
+   "type": "string",
+   "description": "Publication date, YYYY-MM-DD."
+  },
+  {
+   "name": "legal_nature",
+   "type": "string",
+   "description": "Legal nature of the recall (voluntary, prefectoral order...). Null on old notices."
+  },
+  {
+   "name": "category",
+   "type": "string",
+   "description": "Product category (alimentation, automobiles, ...)."
+  },
+  {
+   "name": "subcategory",
+   "type": "string",
+   "description": "Product sub-category."
+  },
+  {
+   "name": "brand",
+   "type": "string",
+   "description": "Product brand."
+  },
+  {
+   "name": "title",
+   "type": "string",
+   "description": "Recall title (product label)."
+  },
+  {
+   "name": "models_or_references",
+   "type": "string",
+   "description": "Models or references concerned."
+  },
+  {
+   "name": "product_identification",
+   "type": "string",
+   "description": "Raw identification lines: GTIN, batch, expiry or best-before date, separated by |."
+  },
+  {
+   "name": "gtins",
+   "type": "string",
+   "description": "GTIN barcodes extracted from the identification lines, semicolon separated."
+  },
+  {
+   "name": "gtin_count",
+   "type": "number",
+   "description": "Number of GTINs, null when none is given."
+  },
+  {
+   "name": "packaging",
+   "type": "string",
+   "description": "Packaging."
+  },
+  {
+   "name": "sale_start_date",
+   "type": "string",
+   "description": "Start of marketing, ISO date."
+  },
+  {
+   "name": "sale_end_date",
+   "type": "string",
+   "description": "End of marketing, ISO date."
+  },
+  {
+   "name": "storage_temperature",
+   "type": "string",
+   "description": "Storage temperature statement."
+  },
+  {
+   "name": "health_mark",
+   "type": "string",
+   "description": "Health mark (food)."
+  },
+  {
+   "name": "additional_information",
+   "type": "string",
+   "description": "Additional information."
+  },
+  {
+   "name": "sale_area",
+   "type": "string",
+   "description": "Geographic sale area."
+  },
+  {
+   "name": "distributors",
+   "type": "string",
+   "description": "Distributors (companies)."
+  },
+  {
+   "name": "reason",
+   "type": "string",
+   "description": "Reason for the recall."
+  },
+  {
+   "name": "risks",
+   "type": "string",
+   "description": "Risks incurred."
+  },
+  {
+   "name": "health_recommendations",
+   "type": "string",
+   "description": "Health recommendations."
+  },
+  {
+   "name": "risk_description",
+   "type": "string",
+   "description": "Additional description of the risk."
+  },
+  {
+   "name": "consumer_actions",
+   "type": "string",
+   "description": "Actions to be taken by the consumer, separated by |."
+  },
+  {
+   "name": "compensation",
+   "type": "string",
+   "description": "Compensation terms."
+  },
+  {
+   "name": "recall_procedure_end_date",
+   "type": "string",
+   "description": "End date of the recall procedure, ISO date."
+  },
+  {
+   "name": "public_information",
+   "type": "string",
+   "description": "Public additional information."
+  },
+  {
+   "name": "image_urls",
+   "type": "string",
+   "description": "Image URLs, separated by |."
+  },
+  {
+   "name": "product_list_url",
+   "type": "string",
+   "description": "URL of the list of products."
+  },
+  {
+   "name": "distributor_list_url",
+   "type": "string",
+   "description": "URL of the list of distributors."
+  },
+  {
+   "name": "poster_pdf_url",
+   "type": "string",
+   "description": "URL of the PDF recall poster."
+  },
+  {
+   "name": "notice_url",
+   "type": "string",
+   "description": "URL of the official notice on rappel.conso.gouv.fr."
+  },
+  {
+   "name": "license",
+   "type": "string",
+   "description": "Licence of the data."
+  },
+  {
+   "name": "attribution",
+   "type": "string",
+   "description": "Required attribution text."
+  }
+ ]
+}

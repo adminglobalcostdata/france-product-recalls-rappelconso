@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the original source."
+title: "France Product Recalls RappelConso: 19,216 notices"
+type: dataset
+authors:
+  - family-names: "Bousquet"
+    given-names: "Henri"
+abstract: "Search 19,216 French consumer product recall notices from RappelConso (DGCCRF, DGAL, DGEC, DGPR): brand, GTIN barcodes, batches, reason, risks, distributors, consumer actions and official notice links. Embedded data, pay per record."
+url: "https://apify.com/phonic_lily/france-product-recalls-rappelconso"
+repository-code: "https://github.com/adminglobalcostdata/france-product-recalls-rappelconso"
+date-released: 2026-11-25
+keywords:
+  - open-data
+  - dataset
+  - json
+  - jsonl
+  - apify
+  - apify-actor
+  - data-api
+  - france
